@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="8" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14215" started-at="2018-08-02T22:29:34Z" finished-at="2018-08-02T22:29:48Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14215" started-at="2018-08-02T22:29:34Z" finished-at="2018-08-02T22:29:48Z">
+      <class name="org.my.samplelogin.example_login.org.my.samplelogin.example_login.NegativeTests">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:org.my.samplelogin.example_login.org.my.samplelogin.example_login.NegativeTests@1dde4cb2]" name="beforeTest" is-config="true" duration-ms="3421" started-at="2018-08-02T22:29:34Z" finished-at="2018-08-02T22:29:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:org.my.samplelogin.example_login.org.my.samplelogin.example_login.PositiveTests@7714e963]" name="beforeTest" is-config="true" duration-ms="2645" started-at="2018-08-02T22:29:37Z" finished-at="2018-08-02T22:29:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testLoginEmptyCredentials()[pri:0, instance:org.my.samplelogin.example_login.org.my.samplelogin.example_login.NegativeTests@1dde4cb2]" name="testLoginEmptyCredentials" duration-ms="1640" started-at="2018-08-02T22:29:40Z" finished-at="2018-08-02T22:29:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginEmptyCredentials -->
+        <test-method status="PASS" signature="testLoginWithPasswordNoUsername()[pri:0, instance:org.my.samplelogin.example_login.org.my.samplelogin.example_login.NegativeTests@1dde4cb2]" name="testLoginWithPasswordNoUsername" duration-ms="356" started-at="2018-08-02T22:29:42Z" finished-at="2018-08-02T22:29:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithPasswordNoUsername -->
+        <test-method status="PASS" signature="testLoginWithUsernameNoPassword()[pri:0, instance:org.my.samplelogin.example_login.org.my.samplelogin.example_login.NegativeTests@1dde4cb2]" name="testLoginWithUsernameNoPassword" duration-ms="381" started-at="2018-08-02T22:29:42Z" finished-at="2018-08-02T22:29:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithUsernameNoPassword -->
+        <test-method status="FAIL" signature="testSimpleLoginBadCredentials()[pri:0, instance:org.my.samplelogin.example_login.org.my.samplelogin.example_login.NegativeTests@1dde4cb2]" name="testSimpleLoginBadCredentials" duration-ms="814" started-at="2018-08-02T22:29:43Z" finished-at="2018-08-02T22:29:43Z">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:24)
+at org.testng.AssertJUnit.assertFalse(AssertJUnit.java:41)
+at org.testng.AssertJUnit.assertFalse(AssertJUnit.java:49)
+at org.my.samplelogin.example_login.org.my.samplelogin.example_login.NegativeTests.testSimpleLoginBadCredentials(NegativeTests.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimpleLoginBadCredentials -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:org.my.samplelogin.example_login.org.my.samplelogin.example_login.NegativeTests@1dde4cb2]" name="afterTest" is-config="true" duration-ms="1119" started-at="2018-08-02T22:29:46Z" finished-at="2018-08-02T22:29:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:org.my.samplelogin.example_login.org.my.samplelogin.example_login.PositiveTests@7714e963]" name="afterTest" is-config="true" duration-ms="1124" started-at="2018-08-02T22:29:47Z" finished-at="2018-08-02T22:29:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- org.my.samplelogin.example_login.org.my.samplelogin.example_login.NegativeTests -->
+      <class name="org.my.samplelogin.example_login.org.my.samplelogin.example_login.PositiveTests">
+        <test-method status="PASS" signature="testCloseAndCancelButtons()[pri:0, instance:org.my.samplelogin.example_login.org.my.samplelogin.example_login.PositiveTests@7714e963]" name="testCloseAndCancelButtons" duration-ms="760" started-at="2018-08-02T22:29:43Z" finished-at="2018-08-02T22:29:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCloseAndCancelButtons -->
+        <test-method status="PASS" signature="testLoginAndCheckTitles()[pri:0, instance:org.my.samplelogin.example_login.org.my.samplelogin.example_login.PositiveTests@7714e963]" name="testLoginAndCheckTitles" duration-ms="888" started-at="2018-08-02T22:29:44Z" finished-at="2018-08-02T22:29:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginAndCheckTitles -->
+        <test-method status="PASS" signature="testRememeberMeChekbox()[pri:0, instance:org.my.samplelogin.example_login.org.my.samplelogin.example_login.PositiveTests@7714e963]" name="testRememeberMeChekbox" duration-ms="340" started-at="2018-08-02T22:29:45Z" finished-at="2018-08-02T22:29:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRememeberMeChekbox -->
+        <test-method status="PASS" signature="testSimpleLogin()[pri:0, instance:org.my.samplelogin.example_login.org.my.samplelogin.example_login.PositiveTests@7714e963]" name="testSimpleLogin" duration-ms="694" started-at="2018-08-02T22:29:45Z" finished-at="2018-08-02T22:29:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimpleLogin -->
+      </class> <!-- org.my.samplelogin.example_login.org.my.samplelogin.example_login.PositiveTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
